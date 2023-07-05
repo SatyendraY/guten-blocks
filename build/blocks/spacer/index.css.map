@@ -1,0 +1,1 @@
+{"version":3,"file":"blocks/spacer/index.css","mappings":";;;AAAA;EACC;AACD;;AAGA;EACC;AAAD,C","sources":["webpack://guten-blocks/./src/blocks/spacer/editor.scss"],"sourcesContent":[".wp-block-create-block-guten-blocks {\r\n\tborder: 1px dotted #f00;\r\n}\r\n\r\n\r\n.inspector-box-control-2 .eaw9yqk8{\r\n\tborder: 2px solid black;\r\n}\r\n"],"names":[],"sourceRoot":""}

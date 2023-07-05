@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "themehunk/context",
+  "version": "0.1.0",
+  "title": "Use Context Blocks",
+  "category": "text",
+  "icon": "smiley",
+  "description": " campo Example block written with ESNext standard and JSX support – build step required.",
+  "supports": {
+    "html": false
+  },
+  "providesContext": {
+    "themehunk/recordId": "recordId"
+  },
+  "example": {
+    "attributes": {
+      "message": "This is a notice!"
+    }
+  },
+  "attributes": {
+    "recordId": {
+      "type": "number"
+    },
+    "thmap": {
+      "type": "string",
+      "default": "Title Enter"
+    },
+    "height": {
+      "type": "number",
+      "default": 350
+    },
+    "width": {
+      "type": "number",
+      "default": 800
+    }
+  },
+  "textdomain": "guten-blocks-compo",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

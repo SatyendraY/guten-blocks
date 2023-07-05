@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "themehunk/animate-heading",
+  "version": "0.1.0",
+  "title": "Animation Heading",
+  "category": "text",
+  "icon": "smiley",
+  "description": "Animation Heading",
+  "supports": {
+    "html": true,
+    "typography": {
+      "fontSize": false,
+      "__experimentalFontFamily": true,
+      "__experimentalTextTransform": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Animation Title"
+    },
+    "fontSize": {
+      "type": "number",
+      "default": 50
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": "https://assets.codepen.io/2970881/kassandras__vibrant_flower_pattern_colorful_6f2e398e-b0b7-433f-830e-2e297f9c9f93.png"
+    }
+  },
+  "textdomain": "guten-blocks-compo",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

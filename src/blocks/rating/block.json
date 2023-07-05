@@ -1,0 +1,54 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "themehunk/rating",
+	"version": "0.1.0",
+	"title": "Rating",
+	"category": "text",
+	"icon": "star-filled",
+	"keywords": ["rating","start rating"],
+	"description": " campo Example block written with ESNext standard and JSX support – build step required.",
+	"supports": {
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"priview":true
+		}
+	},
+	"attributes": {
+		"ratingScale": {
+			"type": "string",
+			"default": 5
+		},
+		"rating": { 
+			"type": "number",
+			"default": 5
+		},
+        "icon_color": { 
+			"type": "string", 
+			"default": "#ffb006" 
+		},
+		"icon_size": { 
+			"type": "number",
+			"default": 20
+		},
+		"icon_text": { 
+			"type": "string", 
+			"default": ""
+		},
+		"title_color": { 
+			"type": "string", 
+			"default": "#ffb006" 
+		},
+		"title_size": { 
+			"type": "number",
+			"default": 20
+		}
+	},
+
+	"textdomain": "guten-blocks-compo",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

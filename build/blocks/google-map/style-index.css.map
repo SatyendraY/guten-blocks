@@ -1,0 +1,1 @@
+{"version":3,"file":"blocks/google-map/style-index.css","mappings":";;;AAAA;EACI;AACJ,C","sources":["webpack://guten-blocks/./src/blocks/google-map/style.scss"],"sourcesContent":[".iframe{\r\n    box-shadow: none !important;\r\n    }"],"names":[],"sourceRoot":""}

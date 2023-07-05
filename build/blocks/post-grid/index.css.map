@@ -1,0 +1,1 @@
+{"version":3,"file":"blocks/post-grid/index.css","mappings":";;;AAAA;EACC;AACD,C","sources":["webpack://guten-blocks/./src/blocks/post-grid/editor.scss"],"sourcesContent":[".wp-block-create-block-guten-blocks {\r\n\tborder: 1px dotted #f00;\r\n}\r\n"],"names":[],"sourceRoot":""}

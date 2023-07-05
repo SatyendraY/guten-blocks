@@ -1,0 +1,65 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "themehunk/spacer",
+	"version": "0.1.0",
+	"title": "Advance Spacer",
+	"category": "text",
+	"icon": "smiley",
+	"description": " campo Example block written with ESNext standard and JSX support – build step required.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"space": {
+			"type": "string"
+		},
+		"background": { 
+			"type": "string", 
+			"default": "#fcfcff" 
+		},
+		"padding": {
+			"type": "object",
+			"default": {
+				"top": "50px",
+				"left": "10%",
+				"right": "10%",
+				"bottom": "50px"
+			} 
+		},
+		"margin": {
+			"type": "object",
+			"default": {
+				"top": "50px",
+				"left": "10%",
+				"right": "10%",
+				"bottom": "50px"
+			} 
+		},
+		"border": {
+			"type": "object"
+		},
+		"border_radius": {
+			"type": "object",
+			"default": {
+				"top": "0",
+				"left": "0",
+				"right": "0",
+				"bottom": "0"
+			} 
+		},
+		"height": { 
+			"type": "number",
+			"default": 50
+		},
+		"width": { 
+			"type": "number",
+			"default": 800
+		}
+	},
+
+	"textdomain": "guten-blocks-compo",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

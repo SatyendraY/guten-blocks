@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "themehunk/content-ai",
+  "version": "0.1.0",
+  "title": "Content AI",
+  "category": "text",
+  "icon": "smiley",
+  "description": " campo Example block written with ESNext standard and JSX support – build step required.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "contentPrompts": {
+      "type": "string",
+      "default": "Title Enter"
+    },
+    "aicontent": {
+      "type": "string",
+      "default": ""
+    },
+    "blockContent": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "textdomain": "guten-blocks-compo",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

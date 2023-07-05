@@ -1,0 +1,77 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "themehunk/controls",
+	"version": "0.1.0",
+	"title": "Controls Settings",
+	"category": "text",
+	"icon": "smiley",
+	"description": " campo Example block written with ESNext standard and JSX support – build step required.",
+	"supports": {
+		"html": true,
+		"inserter": true,
+		"anchor": true,
+		"shadow": true,
+		"className": true,
+		"align": [ "left", "right", "full" ],
+		"color": {
+			"color": true,
+			"background": true,
+			"gradients": true,
+			"link": true
+		},
+		"spacing": {
+			"margin": true,  
+			"padding": true, 
+			"blockGap": true
+		},
+
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true,
+			"__experimentalFontFamily": true,
+			"__experimentalTextTransform": true,
+			"__experimentalTextDecoration": true,
+			"__experimentalFontStyle": true,
+			"__experimentalFontWeight": true,
+			"__experimentalLetterSpacing": true
+		},
+		"__experimentalBorder": {
+			"color": true,
+			"radius": true,
+			"style": true,
+			"width": true,
+			"__experimentalSkipSerialization": true,
+			"__experimentalDefaultControls": {
+			  "color": true,
+			  "radius": true,
+			  "style": true,
+			  "width": true
+			}
+		  },
+		  "__experimentalSelector": ".wp-block-button .wp-block-button__link"
+	},
+	"attributes": {
+		"backgroundColor": {
+			"type": "string",
+			"default": "vivid-green-cyan"
+		},
+		"thmap": {
+			"type": "string",
+			"default": "Title Enter"
+		},
+		"height": { 
+			"type": "number",
+			"default": 350
+		},
+		"width": { 
+			"type": "number",
+			"default": 800
+		}
+	},
+
+	"textdomain": "guten-blocks-compo",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

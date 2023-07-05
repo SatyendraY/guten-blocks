@@ -1,0 +1,90 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/guten-blocks",
+  "version": "0.1.0",
+  "title": "Guten Blocks",
+  "category": "text",
+  "icon": "smiley",
+  "description": "Example block written with ESNext standard and JSX support – build step required.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "textArea": {
+      "type": "string",
+      "default": ""
+    },
+    "leadName": {
+      "type": "string",
+      "source": "text",
+      "selector": "div",
+      "default": ""
+    },
+    "leadEmail": {
+      "type": "string",
+      "source": "text",
+      "selector": "span",
+      "default": ""
+    },
+    "alignment": {
+      "type": "string",
+      "default": "none"
+    },
+    "url": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "img",
+      "attribute": "src"
+    },
+    "title": {
+      "type": "string"
+    },
+    "size": {
+      "enum": [
+        "large",
+        "small"
+      ]
+    },
+    "text": {
+      "type": "string",
+      "default": "some random value"
+    },
+    "bg_color": {
+      "type": "string",
+      "default": ""
+    },
+    "text_color": {
+      "type": "string",
+      "default": "#000"
+    },
+    "desc_color": {
+      "type": "string",
+      "default": "#000"
+    },
+    "headingText": {
+      "type": "string",
+      "default": ""
+    },
+    "fsize": {
+      "type": "number",
+      "default": 26
+    },
+    "MyToggleControl": {
+      "type": "boolean",
+      "default": false
+    },
+    "roption": {
+      "type": "string",
+      "default": "a"
+    },
+    "taboption": {
+      "type": "string",
+      "default": "tab1"
+    }
+  },
+  "textdomain": "guten-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
